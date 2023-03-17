@@ -1,0 +1,23 @@
+#services:
+#  mongodb:
+#    image: mongo:4.4
+#    container_name: mongo
+#    restart: unless-stopped
+#    ports:
+#      - 2717:27017
+#
+#  redis:
+#    image: redis:latest
+#    container_name: redis
+#    restart: unless-stopped
+#    ports:
+#      - 6378:6379
+#
+#  postgreSQL:
+#    container_name: postgres
+#    image: postgres:latest
+#    restart: unless-stopped
+#    ports:
+#      -  5432:5432
+#volumes:
+#  local-data:
